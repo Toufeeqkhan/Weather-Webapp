@@ -42,7 +42,7 @@ class TodayForecast {
               </div>
             </div>
             <div class="img-section">
-              <img src="./assets/images/sun.svg" alt="Sun" />
+              <img src="./images/sun.svg" alt="Sun" />
             </div>
           </div>
 
@@ -51,32 +51,32 @@ class TodayForecast {
             <div class="hours">
               <div class="hour">
                 <p>06:00 AM</p>
-                <img src="./assets/images/sun.svg" alt="sun" />
+                <img src="./images/sun.svg" alt="sun" />
                 <p class="hourly-temp">${this.data.currentDayHours[6].temp}</p>
               </div>
               <div class="hour">
                 <p>09:00 AM</p>
-                <img src="./assets/images/sun.svg" alt="sun" />
+                <img src="./images/sun.svg" alt="sun" />
                 <p class="hourly-temp">${this.data.currentDayHours[9].temp}</p>
               </div>
               <div class="hour">
                 <p>12:00 PM</p>
-                <img src="./assets/images/sun.svg" alt="sun" />
+                <img src="./images/sun.svg" alt="sun" />
                 <p class="hourly-temp">${this.data.currentDayHours[12].temp}</p>
               </div>
               <div class="hour">
                 <p>3:00 PM</p>
-                <img src="./assets/images/sun.svg" alt="sun" />
+                <img src="./images/sun.svg" alt="sun" />
                 <p class="hourly-temp">${this.data.currentDayHours[15].temp}</p>
               </div>
               <div class="hour">
                 <p>06:00 PM</p>
-                <img src="./assets/images/sun.svg" alt="sun" />
+                <img src="./images/sun.svg" alt="sun" />
                 <p class="hourly-temp">${this.data.currentDayHours[18].temp}</p>
               </div>
               <div class="hour">
                 <p>09:00 PM</p>
-                <img src="./assets/images/sun.svg" alt="sun" />
+                <img src="./images/sun.svg" alt="sun" />
                 <p class="hourly-temp">${this.data.currentDayHours[21].temp}</p>
               </div>
             </div>
@@ -86,28 +86,28 @@ class TodayForecast {
             <p>AIR CONDITIONS</p>
             <div class="conditions">
               <div class="condition">
-                <img src="./assets/images/feel.svg" alt="Feel" />
+                <img src="./images/feel.svg" alt="Feel" />
                 <div class="info">
                   <h4>Feel Like</h4>
                   <p>${this.data.currentDayFeelsLike}</p>
                 </div>
               </div>
               <div class="condition">
-                <img src="./assets/images/wind.svg" alt="Wind" />
+                <img src="./images/wind.svg" alt="Wind" />
                 <div class="info">
                   <h4>Wind</h4>
                   <p>${this.data.currentDayWindSpeed}mph</p>
                 </div>
               </div>
               <div class="condition">
-                <img src="./assets/images/rain.svg" alt="Rain" />
+                <img src="./images/rain.svg" alt="Rain" />
                 <div class="info">
                   <h4>Chances of Rain</h4>
                   <p>${this.data.chancesOfRain}%</p>
                 </div>
               </div>
               <div class="condition">
-                <img src="./assets/images/UV.svg" alt="UV" />
+                <img src="./images/UV.svg" alt="UV" />
                 <div class="info">
                   <h4>UV Index</h4>
                   <p>${this.data.UVIndex}%</p>
